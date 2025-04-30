@@ -27,25 +27,31 @@ Cada pasta contém uma subpasta chamada `exercicios\`, que contém outras duas s
 
 ## Como compilar
 
-Para compilar um exercício, abra o terminal no diretório do projeto e utilize o compilador `g++`:
+1. Para compilar um exercício, abra o terminal e navegue até a pasta `exercicios`:
 
-```bash
-g++ -o exemplo.exe exemplo.cpp
-```
+>```bash
+>cd aula-[escolha a aula]/exercicios/
+>```
 
-Esse comando irá gerar um executável chamado exemplo.exe a partir do arquivo exemplo.cpp.
+2. Utilize o compilador `g++`:
+
+>```bash
+>g++ src/exemplo.cpp -o bin/exemplo.exe
+>```
+
+Esse comando irá gerar um executável chamado `exemplo.exe` a partir do arquivo `exemplo.cpp`, dentro da pasta `bin`.
 
 Depois da compilação, você pode executar o programa com:
 
-```bash
-./exemplo.exe
-```
+>```bash
+>./exemplo.exe
+>```
 
 No Windows, use:
 
-```powershell
-exemplo.exe
-```
+>```powershell
+>exemplo.exe
+>```
 
 Repita o processo para cada exercício conforme necessário.
 
