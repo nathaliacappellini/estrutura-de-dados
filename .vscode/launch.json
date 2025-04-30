@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GDB",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "C:\\Users\\clhop\\Desktop\\Programacao\\CPP\\main.exe", // Caminho completo para o executável
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "C:\\Users\\clhop\\Desktop\\Programacao\\CPP", // Diretório de trabalho
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\Program Files\\mingw-w64\\bin\\gdb.exe", // Caminho do GDB
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
