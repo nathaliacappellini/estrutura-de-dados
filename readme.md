@@ -41,7 +41,7 @@ Cada pasta contém uma subpasta chamada `exercicios\`, que contém outras duas s
 
 Esse comando irá gerar um executável chamado `exemplo.exe` a partir do arquivo `exemplo.cpp`, dentro da pasta `bin`.
 
-Depois da compilação, você pode executar o programa com:
+3. Depois da compilação, você pode executar o programa com:
 
 >```bash
 >./exemplo.exe
