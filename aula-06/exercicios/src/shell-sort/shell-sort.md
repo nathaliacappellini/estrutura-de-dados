@@ -21,9 +21,7 @@ Isso pode ser visto na Figura 1. Essa lista tem nove itens. Se usarmos um increm
   <figcaption>Figura 3 – Uma Inserção Final Com Incremento de 1</figcaption>
 </figure>  
 
----
-
-Então, resumindo:
+<br>Então, resumindo:
 
 - Ele divide a lista em sublistas menores usando um intervalo (gap).
 
