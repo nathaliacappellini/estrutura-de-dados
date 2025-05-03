@@ -33,8 +33,6 @@ Escolha do Gap:
 
 - A sequência de gaps é crucial para o desempenho do algoritmo. Uma sequência de gaps bem escolhida pode reduzir significativamente o tempo de ordenação, enquanto uma sequência menos eficaz pode levar a um comportamento quadrático, como no Insertion Sort.  (ex: sequência de Knuth: 1, 4, 13, 40, ...).
 
-- Neste exemplo, usamos gap = tamanho / 2 e reduzimos pela metade a cada iteração.
-
 ## Funcionamento
 
 A animação abaixo mostra o `shellSort` em ação.
