@@ -7,23 +7,21 @@ Isso pode ser visto na Figura 1. Essa lista tem nove itens. Se usarmos um increm
 <figure>
   <img src="shell-sort-image1.png" alt="Figura 1">
   <figcaption>Figura 1 – Shell Sort com Incremento de Três</figcaption>
-</figure>
+</figure>  
 
-<figure>
+<br><figure>
   <img src="shell-sort-image2.png" alt="Figura 2">
   <figcaption>Figura 2 – Shell Sort depois de Ordenar Cada Sublista</figcaption>
-</figure>
+</figure>  
 
-A Figura 3 mostra uma ordenação por inserção final usando um incremento de um; em outras palavras, uma ordenação por inserção convencional. Observe que ao realizar as ordenações de sublistas anteriores, reduzimos agora o número total de operações de deslocalmento necessárias para colocar a lista na sua ordem final. Nesse caso, precisamos de apenas mais quatro deslocamentos para completar o processo.
+<br>A Figura 3 mostra uma ordenação por inserção final usando um incremento de um; em outras palavras, uma ordenação por inserção convencional. Observe que ao realizar as ordenações de sublistas anteriores, reduzimos agora o número total de operações de deslocalmento necessárias para colocar a lista na sua ordem final. Nesse caso, precisamos de apenas mais quatro deslocamentos para completar o processo.
 
-<figure>
+<br><figure>
   <img src="shell-sort-image3.png" alt="Figura 3">
   <figcaption>Figura 3 – Uma Inserção Final Com Incremento de 1</figcaption>
-</figure>
+</figure>  
 
----
-
-Então, resumindo:
+<br>Então, resumindo:
 
 - Ele divide a lista em sublistas menores usando um intervalo (gap).
 
@@ -34,8 +32,6 @@ Então, resumindo:
 Escolha do Gap:
 
 - A sequência de gaps é crucial para o desempenho do algoritmo. Uma sequência de gaps bem escolhida pode reduzir significativamente o tempo de ordenação, enquanto uma sequência menos eficaz pode levar a um comportamento quadrático, como no Insertion Sort.  (ex: sequência de Knuth: 1, 4, 13, 40, ...).
-
-- Neste exemplo, usamos gap = tamanho / 2 e reduzimos pela metade a cada iteração.
 
 ## Funcionamento
 

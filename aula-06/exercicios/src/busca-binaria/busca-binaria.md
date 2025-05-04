@@ -22,7 +22,7 @@ Resumindo:
 
 Busca Binária vs. Busca Linear:
 
-![gif](busca-binaria-animation.gif)
+![gif](busca-binaria-vs-busca-linear.gif)
 
 No Gif podemos ver ambos tipos de busca procurando pelo número 37.
 
