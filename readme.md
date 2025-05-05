@@ -12,8 +12,8 @@ Os exercícios estão organizados por aula e abordam os seguintes tópicos:
 - Aula 04 - Métodos
 - Aula 05 - Recursividade
 - Aula 06 - Algoritmos de ordenação e Busca Binária
-- Classes
-- Construtores
+- Aula 07 - Classes e Objetos
+- Aula 08 - Construtores
 
 ## Organização
 
