@@ -59,6 +59,9 @@ Repita o processo para cada exercício conforme necessário.
 
 Este repositório tem fins exclusivamente acadêmicos, sendo parte da minha formação em Análise e Desenvolvimento de Sistemas.
 
-<br>
+---
 
-<div align="center">Feito por <a href="https://github.com/nathaliacappellini">Nathi</a>.</div>
+<div align="center">
+  <sub>Feito com 🩷 por</sub><br>
+  <strong><a href="https://github.com/nathaliacappellini" target="_blank">Nathalia Cappellini</a></strong><br>
+</div>
