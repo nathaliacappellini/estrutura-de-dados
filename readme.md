@@ -29,29 +29,29 @@ Cada pasta contém uma subpasta chamada `exercicios\`, que contém outras duas s
 
 1. Para compilar um exercício, abra o terminal e navegue até a pasta `exercicios`:
 
->```bash
->cd aula-[escolha a aula]/exercicios/
->```
+```bash
+cd aula-[escolha a aula]/exercicios/
+```
 
 2. Utilize o compilador `g++`:
 
->```bash
->g++ src/exemplo.cpp -o bin/exemplo.exe
->```
+```bash
+g++ src/exemplo.cpp -o bin/exemplo.exe
+```
 
 Esse comando irá gerar um executável chamado `exemplo.exe` a partir do arquivo `exemplo.cpp`, dentro da pasta `bin`.
 
 3. Depois da compilação, você pode executar o programa com:
 
->```bash
->./exemplo.exe
->```
+```bash
+./exemplo.exe
+```
 
 No Windows, use:
 
->```powershell
->exemplo.exe
->```
+```powershell
+exemplo.exe
+```
 
 Repita o processo para cada exercício conforme necessário.
 
@@ -61,4 +61,7 @@ Este repositório tem fins exclusivamente acadêmicos, sendo parte da minha form
 
 ---
 
-<div align="center">Feito por <a href="https://github.com/nathaliacappellini">Nathi</a>.</div>
+<div align="center">
+  <sub>Feito com 🩷 por</sub><br>
+  <strong><a href="https://github.com/nathaliacappellini" target="_blank">Nathalia Cappellini</a></strong><br>
+</div>
